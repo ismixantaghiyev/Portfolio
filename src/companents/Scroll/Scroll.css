@@ -1,0 +1,6 @@
+.scroll{
+    width: 50%;
+    /* background-color: red; */
+    scroll-behavior: smooth;
+    border-left: 1px solid #c0bfbf;
+}

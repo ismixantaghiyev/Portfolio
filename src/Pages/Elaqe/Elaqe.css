@@ -1,0 +1,71 @@
+.elaqe{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.elaqeContainer{
+    width: 80%;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.elaqeItem{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; */
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.elaqeItem:hover{
+    background-color: #424A76;
+}
+
+.elaqeItem:hover h2{
+    color: white;
+}
+
+.elaqeImg{
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.elaqeImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.elaqeName h2{
+    cursor: pointer;
+    padding-left: 10px;
+    transition: 1s;
+
+}
+
+.elaqeName a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+

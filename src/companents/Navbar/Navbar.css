@@ -1,0 +1,36 @@
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-around;
+    height: auto;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.navbar ul a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #c0bfbf;
+    width: 20%;
+}
+
+.flex{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.active{
+    color: blue !important;
+}
