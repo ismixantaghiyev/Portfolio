@@ -4,6 +4,8 @@ import Logo from "../../Images/salinaka.png"
 import LogoShop from "../../Images/myshopping.png"
 import Todolist from "../../Images/todolist.jpg"
 import Turbo from "../../Images/turbo1.webp"
+import country from "../../Images/counry.avif"
+
 import { motion } from "framer-motion"
 
 
@@ -55,7 +57,7 @@ function Layiheler() {
                 <motion.div
                     variants={item}
                     className="layiheCart">
-                    <a target='_blank' href="https://salinaka.netlify.app/">
+                    <a target='_blank' href="https://myshoppingisi.netlify.app">
                         <div className=" layiheImg layiheImgmy">
                             <img src={LogoShop} />
                         </div>
@@ -80,6 +82,16 @@ function Layiheler() {
                             <img src={Turbo} />
                         </div>
                         <div className='layiheText'><p>Turbo.az</p></div>
+                    </a>
+                </motion.div>
+                <motion.div
+                    variants={item}
+                    className="layiheCart">
+                    <a target='_blank' href="https://countryisi.netlify.app/">
+                        <div className="layiheImg turbo">
+                            <img src={country} />
+                        </div>
+                        <div className='layiheText'><p>Countries</p></div>
                     </a>
                 </motion.div>
             </motion.div>
