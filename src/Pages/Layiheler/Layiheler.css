@@ -1,20 +1,14 @@
 .layihe{
     display: flex;
     align-items: center;
-    justify-content: center;
-    /* height: 100%; */
-    
+    justify-content: center;    
 }
 
 .layiheCenter{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    /* justify-content: space-between; */
     width: 80%;
-    /* height: 300px; */
-    /* align-items: center; */
-    /* background-color: red; */
 }
 
 .layiheCart{
@@ -26,13 +20,17 @@
     border: 1px solid #ccc;
     transition: .6s;
     overflow: hidden;
+    transition: 1s;
+}
 
+.layiheCart:hover{
+    scale: 1.1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .layiheImg{
     width: 100%;
     height: 140px;
-    /* border-bottom: 1px solid #ccc; */
 }
 
 .layiheImg img{
@@ -53,9 +51,6 @@
     color: black;
 }
 
-.layiheCart:hover{
-    border: 1px solid #444876;
-}
 
 .layiheImgmy img{
     object-fit: cover;
