@@ -88,7 +88,7 @@
 .about h2{
     width: 19ch;
     overflow: hidden;
-    animation: isi 2.5s steps(10)
+    animation: isi 2.5s steps(200)
     infinite alternate-reverse;
     white-space: nowrap;
 }
