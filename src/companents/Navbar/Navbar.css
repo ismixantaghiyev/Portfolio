@@ -34,3 +34,22 @@
 .active{
     color: blue !important;
 }
+
+
+@media only screen and (max-width:768px){
+    .navbar ul{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 20px;
+        align-items: baseline;
+        justify-content: center;
+    }
+    .navbar{
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+    .flex{
+        font-size: 15px;
+    }
+}

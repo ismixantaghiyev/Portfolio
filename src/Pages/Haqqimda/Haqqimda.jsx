@@ -43,7 +43,7 @@ function Haqqimda() {
                     <p>Mən Frontend Developerəm. Kodlarla işləməyi sevirəm. Yeni layihələr və ya bitmiş layihə üzərində işləyə bilirəm. Qrupla işləməyə üstünlük verirəm. Hazırda mən frontend bacarıqlarımı daha da təkmilləşdirirəm.</p>
                     <hr style={{margin:"0px"}} />
                 </motion.div>
-                <div style={{ display: "flex", width: "100%" }}>
+                <div className='education'>
                     <motion.div
                         variants={itemabout}
                         className="tehsilim">

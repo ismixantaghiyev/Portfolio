@@ -61,3 +61,22 @@
 .turbo img{
     object-fit: cover;
 }
+
+
+
+@media only screen and (max-width:768px){
+    .layiheCenter{
+        width: 100%;
+        display:grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, auto);
+        place-items: center;
+    }
+    .layihe{
+        overflow-y: auto;
+        max-height: 550px;
+    }
+    .layiheCart{
+        width: 90%;
+    }
+}
